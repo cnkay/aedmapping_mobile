@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_hands_holding_heart"
+        android:icon="@drawable/ic_hand_holding_heart_solid"
+        android:title="Responder"/>
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home"/>
+    <item
+        android:id="@+id/navigation_cpr"
+        android:icon="@drawable/ic_heart_cpr"
+        android:title="CPR"/>
+    <item
+        android:id="@+id/navigation_emergency"
+        android:icon="@drawable/ic_ambulance_solid"
+        android:title="Emergency"/>
+
+</menu>

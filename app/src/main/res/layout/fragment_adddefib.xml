@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/BlueHeader">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/colorHeader"
+        tools:layout_editor_absoluteX="124dp" />
+    <TextView
+        android:id="@+id/newDefib"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add a new Defibrillator"
+        android:textColor="@color/colorWhite"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="123dp">
+
+            <TextView
+                android:id="@+id/txt1Add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="250dp"
+                android:text="Name"
+                android:textColor="@color/colorSignUpPressed"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/txtNameAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/field"
+                android:hint="Name"
+                android:gravity="center"
+                tools:layout_editor_absoluteX="72dp"
+                tools:layout_editor_absoluteY="292dp" />
+
+            <TextView
+                android:id="@+id/txt2Add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Description"
+                android:textColor="@color/colorSignUpPressed"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/txtDescriptionAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/field"
+                android:hint="Description"
+                android:gravity="center"
+                tools:layout_editor_absoluteX="72dp"
+                tools:layout_editor_absoluteY="187dp" />
+
+            <TextView
+                android:id="@+id/txt3Add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Address"
+                android:textColor="@color/colorSignUpPressed"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/txtAddressAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/field"
+                android:gravity="center"
+                android:hint="Address"
+                tools:layout_editor_absoluteX="72dp"
+                tools:layout_editor_absoluteY="240dp" />
+
+            <TextView
+                android:id="@+id/txt4Add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="City"
+                android:textColor="@color/colorSignUpPressed"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/txtCityAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/field"
+                android:gravity="center"
+                android:hint="City"
+                tools:layout_editor_absoluteX="72dp"
+                tools:layout_editor_absoluteY="395dp" />
+
+            <TextView
+                android:id="@+id/txt5Add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Country"
+                android:textColor="@color/colorSignUpPressed"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/txtCountryAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/field"
+                android:hint="Country"
+                android:gravity="center"
+                tools:layout_editor_absoluteX="72dp"
+                tools:layout_editor_absoluteY="187dp" />
+
+            <TextView
+                android:id="@+id/txt6Add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Latitude"
+                android:textColor="@color/colorSignUpPressed"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtLatitudeAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/field"
+                android:gravity="center"
+                tools:layout_editor_absoluteX="176dp"
+                tools:layout_editor_absoluteY="349dp" />
+
+            <TextView
+                android:id="@+id/txt7Add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Longitude"
+                android:textColor="@color/colorSignUpPressed"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtLongitudeAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/field"
+                android:gravity="center"
+                tools:layout_editor_absoluteX="176dp"
+                tools:layout_editor_absoluteY="349dp" />
+            <Button
+                android:id="@+id/buttonSaveDefibrillator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@drawable/logintextclickedstate"
+                android:background="@drawable/loginclickedstate"
+                android:gravity="center"
+                android:text="Save"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

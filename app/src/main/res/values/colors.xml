@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#5DBCD2</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorHeader">#5DBCD2</color>
+    <color name="colorGreen">#4caf50</color>
+    <color name="colorPink">#e91e63</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorSignUpPressed">#2196F3</color>
+    <color name="colorCPRBackground">#FFF6DA</color>
+    <color name="colorRed">#f44336</color>
+    <drawable name="colorSignUpPressed">#2196F3</drawable>
+    <drawable name="colorSignUpWhite">#FFFFFF</drawable>
+</resources>
